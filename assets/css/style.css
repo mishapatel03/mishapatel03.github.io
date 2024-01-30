@@ -66,6 +66,30 @@ h6 {
   opacity: 1;
 }
 
+.contact-card {
+  padding: 30px;
+  /* Adjust the padding to make the card smaller */
+  margin: 0 auto;
+  /* Center-align the card */
+  max-width: 600px;
+  /* Optionally, set a maximum width for the card */
+  transition: all ease-in-out 0.3s;
+  background: #fff;
+  box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
+
+}
+
+.myinfo-card {
+  padding: 30px;
+  /* Adjust the padding to make the card smaller */
+  margin: 0 auto;
+  /* Center-align the card */
+  /* max-width: 600px; Optionally, set a maximum width for the card */
+  transition: all ease-in-out 0.3s;
+  background: #fff;
+  box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
+}
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -125,6 +149,25 @@ h6 {
   transition: all 0.5s;
   padding: 15px;
   overflow-y: auto;
+}
+
+.badge-primary-btn {
+  background: #0563bb !important;
+  margin: 5px;
+}
+
+.badge-skills {
+  background-color: #6c757d !important;
+}
+
+.image-css {
+  margin: 0 auto;
+  width: auto;
+}
+
+.img-misha {
+  max-width: 100%;
+  border-radius: 50%;
 }
 
 @media (max-width: 991px) {
