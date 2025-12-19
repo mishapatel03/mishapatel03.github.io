@@ -177,6 +177,15 @@ h6 {
   display: block;
 }
 
+.btn-hover-blue:hover {
+  background-color: #0563bb !important;
+  color: #fff !important;
+  /* ensures text/icon is visible on dark background */
+  border-color: #0563bb !important;
+  /* match border with background */
+}
+
+
 .img-misha {
   max-width: 100%;
   border-radius: 50%;
